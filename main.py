@@ -13,7 +13,7 @@ selection = input(dedent('''
 try:
     if int(selection) == 1:
         adder()
-    if int(selection) == 2:
+    elif int(selection) == 2:
         eight_ball.ask()
     else:
         print("I couldn't recognise your input, please provide a number from the list")
